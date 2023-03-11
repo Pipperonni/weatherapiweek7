@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <main class="weatherPage">
+        <h1>Weather Forecast</h1>
+        <form action="" id="weatherLocation">
+            <input type="text" id="user_input" placeholder="Location">
+            <button class="btn" id="locationBtn">Find Weather</button>
+        </form>
+            <div class="location" id="city"></div>
+            <div class="wetherBox">
+                <div class="weatherTitle" id="tempF">
+                    <h2>Temperature</h2>
+                    <div class="weatherInfo" id="temperatureStats"></div>
+                </div>
+                <div class="weaterTitle">
+                    <h2>Temp high|low</h2>
+                    <div class="weatherInfo" id="tempMMStats"></div>
+                </div>
+                <div class="weaterTitle">
+                    <h2>Humidity</h2>
+                    <div class="weatherInfo" id="humidityStats"></div>
+                </div>
+                <div class="weaterTitle">
+                    <h2>Percipitation</h2>
+                    <div class="weatherInfo" id="percipStats"></div>
+                </div>
+                <div class="weaterTitle">
+                    <h2>Wind</h2>
+                    <div class="weatherInfo" id="windStats"></div>
+                </div>
+            </div>
+    </main>
+    <script src="./credentials.js"></script>
+    <script src="./main.js"></script>
+</body>
+</html>

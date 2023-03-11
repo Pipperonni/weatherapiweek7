@@ -1,0 +1,130 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url('./images/mainback.jpg');
+    
+    
+}
+
+
+
+h1{
+    text-align: center;
+    font-size: 3rem;
+    color: rgb(131, 205, 201);
+}
+
+#weatherLocation{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+input{
+    width: 15rem;
+    height: 2rem;
+    margin-bottom: 1rem;
+}
+
+.btn{
+    width: 15rem;
+    height: 2rem;
+    border-radius: 1rem;
+    color: white;
+    font-size: 1rem;
+    background-image: linear-gradient(to bottom right, rgb(122, 245, 243), rgb(12, 68, 165))
+    
+}
+
+.location{
+    text-align: center;
+    font-size: 5rem;
+    font-weight: 600;
+    color: beige;
+}
+
+.wetherBox{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5rem;
+}
+
+h2{
+    text-align: center;
+    font-size: 3rem;
+    color: rgb(220, 178, 9);
+    
+}
+
+#temperatureStats{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-image: url('./images/placeholder.jpg');
+    width: 20rem;
+    height: 10rem;
+    color: rgb(219, 218, 192);
+    text-align: center;
+    font-size: 4rem;
+    border-radius: 1rem;
+    border: 3px solid gold;
+}
+
+#tempMMStats{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-image: url('./images/placeholder.jpg');
+    width: 20rem;
+    height: 10rem;
+    color: rgb(219, 218, 192);
+    text-align: center;
+    font-size: 4rem;
+    border-radius: 1rem;
+    border: 3px solid gold;
+}
+
+#humidityStats{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-image: url('./images/placeholder.jpg');
+    width: 20rem;
+    height: 10rem;
+    color: rgb(219, 218, 192);
+    text-align: center;
+    font-size: 4rem;
+    border-radius: 1rem; 
+    border: 3px solid gold;
+}
+
+#percipStats{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-image: url('./images/placeholder.jpg');
+    width: 20rem;
+    height: 10rem;
+    color: rgb(219, 218, 192);
+    text-align: center;
+    font-size: 4rem;
+    border-radius: 1rem; 
+    border: 3px solid gold; 
+}
+
+#windStats{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-image: url('./images/placeholder.jpg');
+    width: 20rem;
+    height: 10rem;
+    color: rgb(219, 218, 192);
+    text-align: center;
+    font-size: 4rem;
+    border-radius: 1rem; 
+    border: 3px solid gold; 
+}
