@@ -17,11 +17,12 @@ async function weatherAPI(city){
         <p>${Math.round((data.main.temp_max - 273.15) * 9/5 + 32)}℉ | ${Math.round((data.main.temp_min - 273.15) * 9/5 + 32)}℉</p>
     ` 
     theHumidity.innerHTML = `
-        <p>${data.main.humidity}</p>
+        <p>${data.main.humidity}%</p>
     ` 
-    thePercip.innerHTML = `
-        <p>${data.weather[0].main}</p>
-    ` 
+        thePercip.innerHTML = `
+        <p>${data.weather[0].main}</p> 
+    `
+    
     theWind.innerHTML = `
         <p>${Math.round(data.wind.speed * 2.23964)} mph</p>
     ` 
